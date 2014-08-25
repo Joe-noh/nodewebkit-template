@@ -1,7 +1,3 @@
-## TODO
-
-Muuuuu! Have to Recreate! Node ﾜｶﾗﾅｲ!! ﾜｶﾗﾅｲ!!
-
 # nodewebkit-template
 
 * jade
@@ -22,4 +18,3 @@ $ npm start
 
 $ npm test
 ```
-
