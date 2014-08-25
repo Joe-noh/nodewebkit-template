@@ -1,5 +1,5 @@
 {
-  "name": "nw-demo",
+  "name": "nodewebkit-template",
   "main": "build/html/index.html",
   "scripts": {
     "start": "gulp && node_modules/nodewebkit/bin/nodewebkit"
@@ -15,7 +15,7 @@
     "plugin": true
   },
   "dependencies": {
-    "nodewebkit": "0.10.2"
+    "nodewebkit": ">= 0.10.2"
   },
   "devDependencies": {
     "gulp": "^3.8.7",

@@ -9,19 +9,19 @@ gulp.task("default", ["clean", "build"]);
 gulp.task("build", ["coffee", "stylus", "jade"]);
 
 gulp.task("coffee", function () {
-  gulp.src("./src/coffee/**/*.coffee")
+  gulp.src("./src/js/**/*.coffee")
       .pipe(coffee())
       .pipe(gulp.dest("./build/js/"));
 });
 
 gulp.task("stylus", function () {
-  gulp.src("./src/stylus/**/*.styl")
+  gulp.src("./src/css/**/*.styl")
       .pipe(stylus())
       .pipe(gulp.dest("./build/css/"));
 });
 
 gulp.task("jade", function () {
-  gulp.src("./src/jade/**/*.jade")
+  gulp.src("./src/html/**/*.jade")
       .pipe(jade())
       .pipe(gulp.dest("./build/html/"));
 });
