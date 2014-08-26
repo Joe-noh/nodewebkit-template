@@ -1,12 +1,10 @@
 # nodewebkit-template
 
-* jade
-* coffee-script
-* stylus
+誠に遺憾である
 
-* phantomjs
-* karma
-* jasmine
+jade, coffee-script, stylus
+
+phantomjs, karma, jasmine
 
 ## usage
 
